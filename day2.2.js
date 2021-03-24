@@ -57,12 +57,12 @@ Filter(users)
 
 function addUser(){
     users.forEach(user => {
-        if(user.name !== 'Abhishek'){
+        if(user.name !== 'ram'){
             
-            users.name = "Abhishek",
-            users.scores = 81,
-            users.skills= ['HTM', 'CSS', 'JS'],
-            users.age = 21
+            users.name = "ram",
+            users.scores = 91,
+            users.skills= ['HTML', 'CSS', 'JS'],
+            users.age = 22
         }
     });
 }
